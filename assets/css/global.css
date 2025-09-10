@@ -1,0 +1,69 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Open Sans' 'sans-serif' /* sans-serif será selecionada caso opens sans não puder ser carregada */;
+}
+
+@font-face {
+    font-family: 'Neue Machina';
+    src: url('/assets/fonts/neue-machina-regular.otf');
+}
+
+body {
+    color: white;
+    background-color: black;
+}
+
+.blur-overlay{
+    filter: blur(10px)
+}
+
+.main{
+    margin: 1rem;
+    padding: 1rem;
+    border: 1px solid white;
+    border-radius: 15px;
+}
+
+body::before{
+    content: '';
+    background-image: url('/assets/img/top.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: inline-block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 160vh;
+    width: 100vw;
+    z-index: -1;
+}
+
+body::after{
+    content: '';
+    background-image: url('/assets/img/bottom.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    height: 160vh;
+    width: 100vw;
+    z-index: -1;
+}
+
+@media only screen and (min-width: 768px){
+    .main{
+        max-width: 1024px;
+    }
+}
+
+@media only screen and (min-width: 1056px){ /* 1024 + 16(1rem) + 16(1rem) */
+    .main{
+        margin: 1rem auto;
+    }
+}
+
+/* Position fixed fixa com base na página, 
+position absoluta fixa ao elemento mais 
+próximo com position relative, geralmente o pai */

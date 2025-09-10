@@ -1,0 +1,63 @@
+{
+  "name": "Luis H A de Oliviera",
+  "photo": "/assets/img/foto.jpeg",
+  "job": "Desenvolvedor Júnior",
+  "location": "São Paulo - SP",
+  "phone": "(11) 98675-1320",
+  "email": "luishenriqueangelini@gmail.com",
+  "skills": {
+    "hardSkills": [
+      {
+        "name": "Angular",
+        "logo": "/assets/img/logos/angular_logo.png"
+      },
+      {
+        "name": "Javascript",
+        "logo": "/assets/img/logos/js_logo.png"
+      },
+      {
+        "name": "C#",
+        "logo": "/assets/img/logos/c_logo.png"
+      },
+      {
+        "name": "SQL Server",
+        "logo": "/assets/img/logos/sql_logo.png"
+      }
+    ],
+    "softSkills": [
+      "Resolução de Problemas",
+      "Mentoria",
+      "Atenção aos Detalhes",
+      "Criatividade",
+      "Empatia"
+    ]
+  },
+  "languages": [
+    "Português (nativo)",
+    "Inglês (avançado)"
+  ],
+  "portfolio": [
+    {
+      "name": "Pokedex",
+      "url": "https://github.com/Luisk000/pokedex",
+      "github": true
+    },
+    {
+      "name": "Chess Game Angular",
+      "url": "https://github.com/Luisk000/chess-game-angular",
+      "github": true
+    }
+  ],
+  "professionalExperience": [
+    {
+      "name": "Desenvolvedor Júnior",
+      "period": "Ago 2023 - Atual",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum"
+    },
+    {
+      "name": "Estagiário",
+      "period": "Ago 2021 - Ago 2023",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum"
+    }
+  ]
+}

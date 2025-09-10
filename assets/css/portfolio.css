@@ -1,0 +1,69 @@
+.portfolio, .experiencia {
+    display: flex;
+    flex-direction: column;
+
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.portfolio li, .experiencia li {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.portfolio li .title, .experiencia li .title{
+    font-size: 18px;
+    margin-left: 0.2rem;
+    font-weight: 700;
+}
+
+.portfolio li .github::before{
+    content: "";
+    display: inline-block;
+    width: 1.6rem;
+    height: 1rem;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url('/assets/img/github.svg');
+    filter: invert(1);
+}
+
+.experiencia-data::before {
+    content: "";
+    display: inline-block;
+    width: 1.5rem;
+    height: 0.8rem;
+    margin-top: 2px;
+    margin-left: 0.3rem;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url('/assets/img/calendar.jpeg');
+    filter: invert(1);
+}
+
+.experiencia-text {
+    margin-left: 0.2rem;
+    line-height: 1.5;
+}
+
+@media only screen and (min-width: 768px){
+    .experiencia-text {
+        margin-left: 0.2rem;
+        width: 80%;
+    }
+}
+
+.portfolio li a, .experiencia li a{
+    color: white;
+    text-decoration: none;  
+    font-size: 15px;
+    overflow-wrap: break-word;
+}
+
+.info a{
+    color: white;
+    text-decoration: none;  
+}
