@@ -22,6 +22,6 @@
     height: 1rem;
     background-repeat: no-repeat;
     background-size: contain;
-    background-image: url('/img/check-mark.jpeg');
+    background-image: url('../img/check-mark.jpeg');
     filter: invert(1);
 }
