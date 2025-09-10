@@ -1,6 +1,6 @@
 {
   "name": "Luis H A de Oliviera",
-  "photo": "/assets/img/foto.jpeg",
+  "photo": "assets/img/foto.jpeg",
   "job": "Desenvolvedor Júnior",
   "location": "São Paulo - SP",
   "phone": "(11) 98675-1320",
@@ -9,19 +9,19 @@
     "hardSkills": [
       {
         "name": "Angular",
-        "logo": "/assets/img/logos/angular_logo.png"
+        "logo": "assets/img/logos/angular_logo.png"
       },
       {
         "name": "Javascript",
-        "logo": "/assets/img/logos/js_logo.png"
+        "logo": "assets/img/logos/js_logo.png"
       },
       {
         "name": "C#",
-        "logo": "/assets/img/logos/c_logo.png"
+        "logo": "assets/img/logos/c_logo.png"
       },
       {
         "name": "SQL Server",
-        "logo": "/assets/img/logos/sql_logo.png"
+        "logo": "assets/img/logos/sql_logo.png"
       }
     ],
     "softSkills": [

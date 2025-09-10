@@ -39,19 +39,19 @@
 }
 
 .info .email::before {
-    background-image: url('/assets/img/icons/email.png');
+    background-image: url('assets/img/icons/email.png');
 }
 
 .info .maps::before {
-    background-image: url('/assets/img/icons/maps.png');
+    background-image: url('assets/img/icons/maps.png');
 }
 
 .info .person::before {
-    background-image: url('/assets/img/icons/person.png');
+    background-image: url('assets/img/icons/person.png');
 }
 
 .info .whatsapp::before {
-    background-image: url('/assets/img/icons/whatsapp.png');
+    background-image: url('assets/img/icons/whatsapp.png');
 }
 
 @media only screen and (min-width: 768px){
