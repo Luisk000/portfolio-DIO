@@ -1,0 +1,9 @@
+footer{
+    display: flex;
+    justify-content: right; 
+}
+
+footer a img{
+    width: 100px;
+    padding: 1rem;
+}
