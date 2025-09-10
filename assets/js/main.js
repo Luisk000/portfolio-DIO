@@ -61,7 +61,7 @@ function updateExperiencia(profileData){
 }
 
 async function run (){
-    const url = "/profile.json"
+    const url = "assets/profile.json"
     const fetching = await fetch(url);
     const profileData = await fetching.json()
     updateProfileInfo(profileData)
